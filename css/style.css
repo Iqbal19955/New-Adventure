@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    background-image: url(../Images/dawn.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+    background-color: #0a0a0b59;
+    padding: 20px 0;
+}
+.container{
+    width: 1000px;
+    margin: auto;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{}
+.logo h3{
+    font-size: 18px;
+    color: white;
+}
+.logo h3 span{
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+nav{}
+nav ul{}
+nav ul li{
+    display: inline;
+    padding: 10px;
+    font-weight: 700;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+.colorful-world{
+    text-align: center;
+    color: white;
+    padding: 100px;
+}
+.colorful-world h3{
+    font-style: italic;
+    font-size: 20px;
+}
+.colorful-world h1{
+    font-size: 70px;
+    letter-spacing: 2px;
+}
+.colorful-world span{
+    width: 100px;
+    height: 5px;
+    display: inline-block;
+    background-color: red;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.colorful-world button{  
+padding: 10px 15px;   
+background-color: red; 
+border: none; 
+border-radius: 5px;   
+font-size: 20px;
+color: white;  
+margin-top: 30px; 
+box-shadow: -2px -2px 5px;
+}
