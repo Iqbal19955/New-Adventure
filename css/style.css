@@ -56,7 +56,7 @@ nav ul li a{
 }
 .colorful-world h1{
     font-size: 70px;
-    letter-spacing: 2px;
+    letter-spacing: 4px;
 }
 .colorful-world span{
     width: 100px;
@@ -76,3 +76,107 @@ color: white;
 margin-top: 30px; 
 box-shadow: -2px -2px 5px;
 }
+
+/*Header End*/
+
+/*Upcomming Start*/
+img{
+    max-width: 100%;
+}
+#events{padding: 50px 0;text-align: center;}
+#events h2{
+    margin-bottom: 5px;
+    font-size: 40px;
+    text-align: center;
+}
+#events span{
+    width: 100px;
+    height: 5px;
+    display: inline-block;
+    background-color: red;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    }
+.card-container{
+    align-items: center;
+}
+.col-1-2{
+    align-content: center;
+}
+.card img{
+    height: 280px;
+    margin-bottom: 20px;
+    box-shadow: 5px 5px 5px #00000080;
+}
+
+.card h3{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+.card p{
+    text-align: justify;
+    padding-right: 20px;
+    margin: 10px 0;
+}
+.card button{
+    text-align: center;
+    margin: 10px 0;
+    background: transparent;
+    padding: 10px 10px;
+    border-radius: 5px;
+    border: none;
+    color: rgb(201, 7, 7);
+    font-size: 15px;
+}
+/*Evrnts Section End*/
+
+
+/*Expolre Section Start*/
+.explore{
+    background-image: url(../Images/father.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 200px;
+    background-color: #9a9ada94;
+    background-blend-mode: multiply;
+    background-attachment: fixed;
+    margin-bottom: 50px;
+    }
+#explore{
+    display: flex;
+    justify-content: end;
+}
+.col{
+    width: 50%;
+    color: white;
+}
+.col h2{
+    font-size: 40px;
+    letter-spacing: 4px;
+}
+.col span{
+    width: 100px;
+    height: 5px;
+    display: inline-block;
+    background-color: red;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+.col p{
+    font-size: 20px;
+}
+.col button{
+    text-align: center;
+    margin: 10px 0;
+    background: transparent;
+    border-radius: 5px;
+    border: none;
+    color: rgb(201, 7, 7);
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 2px;
+} m
